@@ -109,7 +109,26 @@ iOS Shortcuts
 - Direct vault editing used for bulk content upgrades (Grok writes improved cards straight to the master vault).
 - Frictionless sync script in place.
 
-Non-goals / exclusions: random notes, equipment, finance, family, and other domains are deliberately kept out of the Mat techniques view.
+## Forge Domains & Bubbles Homepage (New)
+
+The Forge now has a dedicated domain hub at **/forge**.
+
+- Large, beautiful clickable orb-style cards (circular) for each major domain:
+  - The Mat (BJJ)
+  - Fitness & Recovery
+  - Equipment & Ranch
+  - Cross-Domain Insights
+- Each orb shows icon, name, short description, and stats pulled live from the vault.
+- "+ New Domain" orb opens the floating Hermes chat pre-filled with a creation request.
+- Clicking a domain takes you to **/domains/[slug]** which loads relevant vault content (techniques for Mat, fitness data, equipment cards, or synthesized insights).
+- Fully extensible: new domains can be added via the chat or config.
+
+The floating Hermes chat is now domain-context aware. It can:
+- Search your vault for related files
+- Standardize content to the appropriate high-quality template
+- Automatically write polished files back into the vault (or create Hermes Tasks)
+
+This keeps the philosophy: vault = truth, Grok/Hermes handles the complexity and writing.
 
 ## Strategic Questions for Grok Review
 
