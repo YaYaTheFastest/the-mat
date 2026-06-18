@@ -111,24 +111,21 @@ iOS Shortcuts
 
 ## Forge Domains & Bubbles Homepage (New)
 
-The Forge now has a dedicated domain hub at **/forge**.
+The Forge homepage at `/forge` now features beautiful, large clickable orb-style bubbles (circular cards with hover scale and glow effects using Framer Motion).
 
-- Large, beautiful clickable orb-style cards (circular) for each major domain:
-  - The Mat (BJJ)
-  - Fitness & Recovery
-  - Equipment & Ranch
-  - Cross-Domain Insights
-- Each orb shows icon, name, short description, and stats pulled live from the vault.
-- "+ New Domain" orb opens the floating Hermes chat pre-filled with a creation request.
-- Clicking a domain takes you to **/domains/[slug]** which loads relevant vault content (techniques for Mat, fitness data, equipment cards, or synthesized insights).
-- Fully extensible: new domains can be added via the chat or config.
+Domains:
+- **The Mat** (BJJ techniques)
+- **Fitness & Recovery**
+- **Equipment & Ranch**
+- **Cross-Domain Insights**
 
-The floating Hermes chat is now domain-context aware. It can:
-- Search your vault for related files
-- Standardize content to the appropriate high-quality template
-- Automatically write polished files back into the vault (or create Hermes Tasks)
+The config is extensible. A prominent "+ New Domain" bubble opens the floating Hermes chat pre-filled with a creation prompt. Hermes will search the vault, standardize to high-quality template, and write structured content back.
 
-This keeps the philosophy: vault = truth, Grok/Hermes handles the complexity and writing.
+Clicking a bubble goes to `/domains/[slug]`, which loads relevant vault content (techniques for Mat, fitness data, equipment, etc.), with search, and one-tap Hermes polish buttons that trigger automatic standardization and vault writes.
+
+The floating Hermes chat is now fully context-aware for domains: it detects the current slug from URL and can create or polish entire domains by searching the vault, categorizing, applying the 2026-style format, and writing files directly.
+
+This fulfills the goal of extensible domain hubs with zero-friction AI assistance.
 
 ## Strategic Questions for Grok Review
 
